@@ -18,9 +18,7 @@ int main(int argc, char const *argv[])
 
     printf("inverse: %d", result);
 
-    
-
-
+   
     
  
     return 0;

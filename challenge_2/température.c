@@ -9,12 +9,13 @@ int main(int argc, char const *argv[])
     c = (f-32)/1.8;
     
     if (c<=5)
+    
     {
-        printf("la température très froi",c);
+        printf("la température très froid",c);
     }
     else if (c>=6 && c<=26)
     {
-         printf("la température froi",c);
+         printf("la température froid",c);
     }
     else if (c>=27 && c<=35)
     {

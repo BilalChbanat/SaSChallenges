@@ -2,16 +2,19 @@
 
 int main(int argc, char const *argv[])
 {
-    for (int i = 0; i < 8; i++)
+    int i, j, h;
+    for (i = 0; i < 10; i++)
     {
-        for (int j = 0; j < 8; j++)
+        for ( j = 0; j <10-i ; j++)
         {
-            for (int z = 0; z < 8; z++)
-            {
-                printf("*");
-            }
-            
+            printf(" ");
         }
+        for ( h = 0; h <=i*2 ; h++)
+        {
+            printf("*");
+        }
+        
+        printf("\n");
         
     }
     

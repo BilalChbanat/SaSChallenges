@@ -9,7 +9,6 @@ int main(int argc, char const *argv[])
     c = (f-32)/1.8;
     
     if (c<=5)
-    
     {
         printf("la température très froid",c);
     }
